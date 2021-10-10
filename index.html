@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        #div{
+            margin: 50px;
+            border: 40px solid rgb(255, 47, 238);
+            padding: 40px;
+            text-align: center;
+            vertical-align: middle;
+            background-color: green;
+        }
+        .box{
+            width: 50%; margin-left: 20%;
+             background-color: chocolate;
+             overflow: hidden;
+        }
+
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;color: rgb(13, 0, 128);">CSS BOX MODEL</h2>
+    <P>All HTML elements can be considered as boxes. In CSS,
+        the term 'BOX MODEL' is used when talking about 
+        design and layout.
+        The CSS box model is essentially a box that wraps around
+         every HTML element. It consists of: margins, borders,
+          padding, and the actual content.
+          Content - The content of the box is place where text and images appear
+Padding  Clears an area around the content. The padding is 
+transparent. A border goes around the padding and content
+Margin Clears an area outside the border. The margin is also transparent.
+    </P>
+    <p>example with diagram : </p>
+    <div class="box">
+    <div id="div">
+           <p style="background-color: burlywood;">This is the content of div tag.</p>
+    </div>
+</div>
+<p style="color: red;"><b>Note:</b> In above box,purple colored boundry 
+    is "Border" and space between content and border is padding. Also the outer boundry
+in chocolate color is the margin.</p>
+</body>
+</html>
